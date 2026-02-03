@@ -1,0 +1,47 @@
+body{
+    background-color:#f1f2f6;
+}
+header{
+    width: 1200px;
+    margin: auto;
+    padding: 40px 40px;
+    background-color: #fff;
+    justify-items: center;
+    text-align: center;
+}
+#progresso-container {
+  width: 600px;
+  height: 40px;
+  background-color: rgb(212, 208, 208);
+  border-radius: 10px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+#progresso-barra {
+  height: 100%;
+  width: 0%;
+  background-color: green;
+  transition: width 0.3s ease;
+}
+#lista{
+    list-style: none;
+    padding: 0;
+}
+#lista li{
+    display: block;
+    width: 400px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 30px 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #fff;
+}
+#lista li.feito{
+    background-color: green;
+    font-weight: bold;
+    color: #fff;
+}
+strong{
+    color: #fff;
+}
